@@ -510,7 +510,7 @@ const ScoreBoard: React.FC<ScoreBoardProps> = ({ initialState, onMatchEnd, onBac
            {/* Next Inning Button Check */}
             {match.currentInning === 1 && (match.battingTeam.wickets >= 10 || match.battingTeam.oversPlayed.startsWith(match.config.totalOvers.toString())) && (
                 <button onClick={startSecondInning} className="w-full py-4 mt-4 bg-green-600 text-black font-black text-xl rounded shadow-[0_0_20px_rgba(34,197,94,0.6)] animate-bounce uppercase tracking-widest">
-                    >>> START 2ND INNING >>>
+                     START 2ND INNING 
                 </button>
             )}
 
